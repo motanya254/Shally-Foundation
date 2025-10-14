@@ -1,0 +1,89 @@
+body{
+    font-family: "Arial Narrow";
+    margin: 2px;
+}
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 30px 2px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+margin:0px 10px}
+nav a{
+    color: crimson;
+padding: 10px 15px;
+text-decoration: none}
+nav a:hover{
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+#about{
+    background-color: cyan;
+    border: beige 2px;
+    padding: 20px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+#project{
+    background-color: lightcoral;
+    border: azure 10px;
+    padding: 20px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+#contact{
+    background-color: darkkhaki;
+    border: beige 10px;
+    padding: 20px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+main{
+    padding: 20px;
+}
+#project_container{
+    display: flex;
+    gap: 15px;
+}
+.projects{
+    background-color: beige;
+    padding: 15px;
+    border: azure 2px solid;
+    border-radius: 8px;
+    box-shadow: beige;
+}
+h3{
+    color: black;
+}
+h2{
+  color: beige;
+}
+
+.contact-form input{
+    color: lightpink;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+.contact-form{
+    max-width: 600px;
+    margin: 0px auto;
+    color: cornflowerblue;
+}
+#sub{color: dodgerblue;
+    background-color: darkturquoise;
+
+}
+contact-form
+
+#foot{
+    color: darkcyan;
+    font-size: medium;
+    border: cornsilk solid 20px;
+}
