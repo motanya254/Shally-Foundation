@@ -35,7 +35,7 @@ nav a:hover{
     border-radius: 9px;
     margin-bottom: 10px;
 }
-#contact{align-content: center;
+#contact{text-align: center;
     background-color: darkkhaki;
     border: beige 10px;
     padding: 20px;
@@ -55,7 +55,7 @@ main{
     padding: 15px;
     border: azure 2px solid;
     border-radius: 8px;
-    box-shadow: beige;
+    box-shadow: 0 0 5px black ;
 }
 h3{
     color: black;
@@ -64,26 +64,18 @@ h2{
   color: beige;
 }
 
-.contact-form input{
-    color: lightpink;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: large;
-    cursor: pointer;
-}
-.contact-form{
-    max-width: 600px;
-    margin: 0px auto;
-    color: cornflowerblue;
-}
+
+   #contactform{
+       display: flex;
+       flex-direction: column;
+       max-width: 500px;
+       margin:  0 auto;
+       gap: 10px;
+       font-weight: bold;
+   }
 #sub{color: dodgerblue;
     background-color: darkturquoise;
 
-}
-contact-form label{
-    padding: 20px;
-    color: azure;
-    border: azure 20px solid;
 }
 
 #foot{
