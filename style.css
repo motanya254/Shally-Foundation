@@ -80,7 +80,11 @@ h2{
     background-color: darkturquoise;
 
 }
-contact-form
+contact-form label{
+    padding: 20px;
+    color: azure;
+    border: azure 20px solid;
+}
 
 #foot{
     color: darkcyan;
