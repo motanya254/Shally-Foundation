@@ -35,7 +35,7 @@ nav a:hover{
     border-radius: 9px;
     margin-bottom: 10px;
 }
-#contact{
+#contact{align-content: center;
     background-color: darkkhaki;
     border: beige 10px;
     padding: 20px;
