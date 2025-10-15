@@ -78,8 +78,9 @@ h2{
 
 }
 
-#foot{
-    color: darkcyan;
+#foot{text-align: center;
+    color: black;
     font-size: medium;
     border: cornsilk solid 20px;
+    background-color: cornflowerblue;
 }
