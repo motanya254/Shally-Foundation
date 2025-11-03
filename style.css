@@ -84,3 +84,22 @@ h2{
     border: cornsilk solid 20px;
     background-color: cornflowerblue;
 }
+/* responsive */
+@media (max-width: 768px){
+
+
+}
+nav li{
+    margin: 15px 10px;
+    display: block;
+}
+
+#project_container{
+    flex-direction: column;
+}
+/* responsive */
+@media (max-width: 768px){section{
+    #img{max-width: 450px}
+}
+}
+
